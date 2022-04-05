@@ -1,0 +1,48 @@
+.content {
+    grid-area: c;
+    background: #95A3B3;
+}
+
+main {
+    margin-left: 20px;
+}
+
+.newPost {
+    width: 400px;
+    display: grid;
+    grid-template-columns: 270px 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: " h h" "t b";
+    align-items: center;
+}
+
+.newPost h1 {
+    grid-area: h;
+    width: 250px;
+}
+
+.newPost textarea {
+    grid-area: t;
+    width: 250px;
+    height: 60px;
+}
+
+.newPost button {
+    width: 70px;
+    height: 30px;
+    grid-area: b;
+    cursor: pointer;
+    margin: 10px;
+    font: normal 17px arial;
+    background-color: beige;
+}
+
+.avatar {
+    width: 150px;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.foto {
+    width: 100%;
+}
