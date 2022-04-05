@@ -11,14 +11,15 @@ function App({state, dispatch}){
   return(
     <BrowserRouter>
       <div className='app-wrapper'>
-        <Header/>
+        {/* <Header/>
         <Nav />
         <div>
         <Routes>
           <Route path='/profile' element={<Profile text={state.profile.text} valueTextarea={state.profile.valueTextarea} dispatch={dispatch}/>}/>
           <Route path='/dialog/*' element={<Dialogs items={state.dialogs.items} mes={state.dialogs.updateNewMessage} message={state.dialogs.message} dispatch={dispatch}/>}/>
         </Routes>
-        </div>
+        </div> */}
+        <Profile text={state.profile.text} valueTextarea={state.profile.valueTextarea} dispatch={dispatch}/>
       </div>
     </BrowserRouter>
   );

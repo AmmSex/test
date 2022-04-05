@@ -1,6 +1,12 @@
 .content {
-    grid-area: c;
-    background: #95A3B3;
+    display: grid;
+    justify-content: center;
+
+    background: #eaf1fa;
+}
+
+h1{
+    
 }
 
 main {
@@ -41,8 +47,19 @@ main {
     width: 150px;
     padding: 30px;
     border-radius: 50%;
+}s
+
+
+
+.foto img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
 }
 
-.foto {
-    width: 100%;
+.question{
+    display: grid;
+    justify-content: center;
+    align-content: space-around;
+    height: 180px; 
 }

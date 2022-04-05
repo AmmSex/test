@@ -4,11 +4,6 @@
 }
 
 .app-wrapper {
-    /*Все внутренние эл-ты ведут себя как grid-элементы*/
-    display: grid;
-    grid-template-rows: 80px 1fr;
-    grid-template-columns: 2fr 10fr;
-    grid-template-areas: "h h" "n c";
-    width: 1200px;
+    width: 60%;
     margin: 0 auto;
 }
