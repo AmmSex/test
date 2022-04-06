@@ -19,7 +19,7 @@ function App({state, dispatch}){
           <Route path='/dialog/*' element={<Dialogs items={state.dialogs.items} mes={state.dialogs.updateNewMessage} message={state.dialogs.message} dispatch={dispatch}/>}/>
         </Routes>
         </div> */}
-        <Profile text={state.profile.text} valueTextarea={state.profile.valueTextarea} dispatch={dispatch}/>
+        <Profile text={state.profile.text} valueTextarea={state.profile.valueTextarea} valueOneAnswer={state.profile.valueOneAnswer} dispatch={dispatch}/>
       </div>
     </BrowserRouter>
   );

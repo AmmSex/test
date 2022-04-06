@@ -9,7 +9,8 @@ let store = {
                 {id:2, post: 'How are you?', likeCount: 2},
                 {id:3, post: '111111111', likeCount: 3}
               ],
-            valueTextarea: 'IT'
+            valueTextarea: 'IT',
+            valueOneAnswer: 0,
         },
         dialogs: {
             message : [
